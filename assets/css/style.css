@@ -22,3 +22,18 @@ padding: 96px 165px;
 }
     }
 }
+/* map-section */
+
+.map{
+
+.map-main.right::has(svg){
+
+
+    width: 660px;
+    height: 537.77px;
+    top: 3022.36px;
+    left: 190px;
+    
+}
+    gap: 5rem;
+}

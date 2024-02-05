@@ -9,4 +9,12 @@
 
         display: none;
     }
+
+    .f-r{
+
+
+      
+
+    display: flex; flex-direction: column;
+    }
   }
