@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+    .hero .main-hero {
+      flex-direction: column-reverse;
+      gap: 10rem;
+      padding: 48px 82px; align-items: center;
+    }
+    .right{
+
+
+        display: none;
+    }
+  }
