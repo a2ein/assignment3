@@ -1,0 +1,13 @@
+/*  custom components  */
+.f-r{
+display: flex;
+direction: row;
+
+
+}
+
+.f-c{
+
+
+    display: flex; flex-direction: column;
+}
