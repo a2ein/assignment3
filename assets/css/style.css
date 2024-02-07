@@ -1,5 +1,80 @@
-* {
-  color: red;
+.hero{
+  display: flex;
+  padding: 96px 165px 96px 165px;
+  flex-direction: row;
+  align-items: flex-start;
+ gap: 12px;
+  align-self: stretch;
+justify-content: space-between;
+background-color: $white;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*.hero-super{ 
+margin-top: -10rem;
+  padding: 2rem 1rem .5rem 1rem;
+background: #111827  no-repeat ;
+background-size: cover;
+}*/
+
+.container{
+gap: 24px;
+flex-direction: column;
+  display: flex;
+/* adjust margintop */
+  margin-top: 4rem;
+}
+
+/* adjust if you need */
+.container-right{
+margin-left: 5rem;
+
+
+
+.introduce{
+  gap: 1rem;
+font-family: "Lexend Deca";
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 152.381% */
+}
+
+.description{
+  color: #6B7280;
+font-family: "Lexend Deca";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 168.75% */
+}
+
+.button{
+  color: #000;
+  font-family: "Lexend Deca";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  /*168.75%*/border-radius: 4px;
+  background: #FACC15;
+  display: flex;
+  padding: 8px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  -ms-border-radius:4px;
+  -o-border-radius:4px;
+width: 123px;
+
+}
+.imgright{
+  width: 427px;
+  height: 427px;
+  border-radius: 24px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  -webkit-border-radius:24px;
+  -moz-border-radius:24px;
+  -ms-border-radius:24px;
+  -o-border-radius:24px;
+}
