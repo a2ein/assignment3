@@ -1,12 +1,56 @@
-$black: #0B132A;
+$navy: #0B132A;
 
-$gray:  #4F5665;
+$ashe:  #4F5665;
 
 $white: #FFFFFF;
+$btn-color: #F53838;
+
+// fonts
+$font-family: Rubik;
+// common
+*{
+
+    padding: 0; margin:0 ; box-sizing: border-box;
+
+font-family: $font-family;
+}
+.header{
+
+color: $navy;
+font-family: $font-family;
+font-size:large;
+font-weight: 500;
 
 
+
+
+}
+.details{
+
+    color: $ashe;
+}
+.img{
+
+    width: 611.24px;
+height: 382.44px;
+top: 179.11px;
+left: 745.76px;
+
+}
+.btn-primary:hover{
+    
+    animation-timing-function: 3s;
+    color: black; background-color: white; outline-color: rgba(4, 218, 4, 0.986); outline-style:solid;
+}
+// hero section
+.main-hero{   
+    gap: 4rem;
 .main-hero{
 
 
-    gap: 4rem;
+
+
+}
+
+ 
 }

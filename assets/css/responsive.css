@@ -3,9 +3,16 @@
       flex-direction: column-reverse;
       gap: 10rem;
       padding: 48px 82px; align-items: center;
-    }
 
-    .f-r{
+    }
+    /* responsive-img */
+    .img{
+
+height: auto;
+      width:auto;
+    }
+ /* responsive-layout */
+    .f-r{ 
 
 
       
@@ -13,3 +20,12 @@
     display: flex; flex-direction: column;
     }
   }
+
+  /* responisve-text */
+.header{
+font-size:large;
+
+}
+.details{
+  font-size: small;
+}
