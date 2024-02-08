@@ -27,7 +27,7 @@
 .btn-primary:hover {
   color: black;
   background-color: white;
-  outline-color: rgba(4, 218, 4, 0.986);
+  outline-color: rgba(9, 245, 9, 0.986);
   outline-style: solid;
   transition: ease-in;
   -webkit-transition: ease-in;
