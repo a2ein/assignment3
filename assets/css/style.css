@@ -6,9 +6,8 @@
 }
 
 .header {
-  
+  font-size: 50px !important;
   color: #0B132A;
-  font-size: 50px;
   font-weight: 500;
   font-family: Rubik;
 
@@ -26,28 +25,28 @@
 }
 
 .btn-primary:hover {
- color: black;
- background-color: white;
- outline-color: rgba(4, 218, 4, 0.986);
- outline-style: solid;
- transition: ease-in;
- -webkit-transition:ease-in;
- 
- -moz-transition:ease-in;
- 
- -ms-transition:ease-in;
- 
- -o-transition: ease-in;
- transition-duration: .3s;
+  color: black;
+  background-color: white;
+  outline-color: rgba(4, 218, 4, 0.986);
+  outline-style: solid;
+  transition: ease-in;
+  -webkit-transition: ease-in;
+
+  -moz-transition: ease-in;
+
+  -ms-transition: ease-in;
+
+  -o-transition: ease-in;
+  transition-duration: .3s;
 }
 
 .main-hero {
   gap: 4rem;
 
-.left{
+  .left {
 
-gap:1.4rem;
-}
+    gap: 1.4rem;
+  }
 
 }
 

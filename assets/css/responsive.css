@@ -1,31 +1,28 @@
 @media screen and (max-width: 600px) {
-    .hero .main-hero {
-      flex-direction: column-reverse;
-      gap: 10rem;
-      padding: 48px 82px; align-items: center;
+  .hero .main-hero {
+    flex-direction: column-reverse;
+    gap: 10rem;
+    padding: 48px 82px;
+    align-items: center;
 
-    }
-    /* responsive-img */
-    .img{
-
-height: auto;
-      width:auto;
-    }
- /* responsive-layout */
-    .f-r{ 
-
-
-      
-
-    display: flex; flex-direction: column;
-    }
   }
 
-  /* responisve-text */
-.header{
-font-size:large;
+  /* responsive-img */
+  .img {
 
+    height: auto;
+    width: auto;
+  }
+
+  /* responsive-layout */
+  .f-r {
+
+
+
+
+    display: flex;
+    flex-direction: column;
+  }
 }
-.details{
-  font-size: small;
-}
+
+/* responisve-text */
